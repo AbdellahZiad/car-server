@@ -81,7 +81,7 @@ public class ClientServiceImpl {
 
 
     public String deleteClient(Long id) {
-//        clientRepository.desactivateUserById(id);
+        clientRepository.deleteById(id);
 
         return "Ok";
     }

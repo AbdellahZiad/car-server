@@ -1,8 +1,8 @@
 spring:
   datasource:
-    password: ziad2018
-    url: jdbc:postgresql://localhost:5432/suprateam
-    username: postgres
+    password: d880a69c64c5d45cf3023ff9b678281ed2d92ab29f4bc56e2f0bc3cf243c49f8
+    url: jdbc:postgresql://ec2-34-195-115-225.compute-1.amazonaws.com:5432/dc94udc62q715u
+    username: lfanbpllgpwwsg
 
   jpa:
     hibernate:
@@ -27,4 +27,4 @@ sme:
 jwt:
   secret: javainuse
 server:
-  port: 8288
+  port: 5000

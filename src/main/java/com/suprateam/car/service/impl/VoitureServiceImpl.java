@@ -61,7 +61,7 @@ public class VoitureServiceImpl {
 
 
     public String deleteVoiture(Long id) {
-//        VoitureRepository.desactivateUserById(id);
+        voitureRepository.deleteById(id);
 
         return "Ok";
     }
